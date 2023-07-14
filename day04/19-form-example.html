@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form-example</title>
+</head>
+
+<body>
+    <form>
+        <table>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input required id="email" type="email" name="email" placeholder="example@mail.com"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input required type="password" name="password" id="password"></td>
+            </tr>
+            <tr>
+                <td><label for="code">Security Code</label></td>
+                <td><input readonly required type="number" name="code" id="code"></td>
+            </tr> <!-- readonly: you can't write anything -->
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit">Save</button>
+                    <button type="reset">Clear</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
